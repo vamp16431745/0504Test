@@ -52,7 +52,7 @@ body
 
     #cards section
 {
-    flex: 0 1 100%; /*100%代表只有1列 50%2列*/
+    flex: 1 1 100%; /*100%代表只有1列 50%2列*/
 }
 
 #cards section.s1
@@ -102,7 +102,7 @@ header img
     }
     #cards section
     {
-        flex:0 1 50%;
+        flex:1 1 50%;
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -120,7 +120,7 @@ header img
     }
     #cards section
     {
-        flex:0 1 33%;
+        flex:1 1 33%;
 
 }
 
