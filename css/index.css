@@ -191,6 +191,7 @@ footer ul
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
 footer ul a:link
