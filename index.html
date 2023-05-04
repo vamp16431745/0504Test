@@ -43,7 +43,15 @@
     <div id="layout">
         <header>
             <h2>踏上一場永生難忘的征途吧</h2>
-            <picture><img src="images/war1.jpg" alt="封面"></picture>
+            <picture>
+                <source media="(min-width: 1400px)"srcset="images/war5.jpg"width="1200">
+                <source media="(min-width: 1200px)"srcset="images/war4.jpg"width="900">
+                <source media="(min-width: 992px)"srcset="images/war3.jpg"width="600">
+                <source media="(min-width: 768px)"srcset="images/war2.jpg"width="400">
+                <source media="(min-width: 576px)"srcset="images/war1.jpg">
+
+                <img src="images/war1.jpg" alt="封面">
+            </picture>
 
         </header>
         <main>
