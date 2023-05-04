@@ -79,6 +79,9 @@ body
     #root {
         max-width: 720px;
     }
+    #cards section
+    {
+        flex:0 1 50%;
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -94,6 +97,9 @@ body
     #root {
         max-width: 1140px;
     }
+    #cards section
+    {
+        flex:0 1 33%;
 
 }
 
