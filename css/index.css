@@ -59,6 +59,11 @@ body
 {background-color: darkorchid;
 
 }
+#cards h1
+{
+    text-align: center;
+    margin: 2em 0em;
+}
 
 #cards section.s2
 {background-color: cadetblue;
