@@ -1,9 +1,46 @@
+body
+{
+    background-color: rgb(106, 140, 140);
+}
+
+
 #root{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
+
+#layout
+{
+    display: grid;
+    grid-template-columns: 1fr; /*直行1行*/
+    grid-template-rows: 300px 500px 200px;  /*橫列3列*/
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer"
+
+
+}
+
+#layout header
+{
+    grid-area: header;
+    background-color: rgb(185, 34, 34);
+}
+
+#layout main
+{
+    grid-area: content ;
+    background-color: rgb(133, 19, 42);
+}
+
+#layout footer
+{
+    grid-area: footer;
+    background-color: rgb(201, 68, 27);
+}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
