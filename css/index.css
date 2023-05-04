@@ -75,7 +75,7 @@ flex-wrap: nowrap;
     padding: 1em;
 }
 
-#cards.cardFooter
+#cards .cardFooter
 {
     display: flex;
     flex-direction: row;
@@ -89,7 +89,7 @@ flex-wrap: nowrap;
 
 }
 
-#cards.card.cardFooter
+#cards .card.cardFooter
 {flex:0 1 50px
 
 }
@@ -138,7 +138,7 @@ flex-wrap: nowrap;
 
 }
 
-#cards.card h3
+#cards .card h3
 {
     flex: 0 1 200px;;
 }
