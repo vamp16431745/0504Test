@@ -93,6 +93,50 @@ flex-wrap: nowrap;
 {flex:0 1 50px
 
 }
+#cards .cardFooter .view
+{
+    flex: 0 1 auto ;
+    background-color: rgb(73, 140, 208);
+    padding: 0.5em ;
+    border-radius: 0.4em 0 0 0.4em; /*上右下左*/ 
+    color: white;
+    font-size: 0.8em;
+} 
+
+#cards .cardFooter .edit
+{
+    flex: 0 1 auto;
+    background-color:rgb(73, 140, 208);
+    padding: 0.5em;
+    border-radius: 0 0.4em 0.4em 0;
+    color: white;
+    font-size: 0.8em;
+}
+#cards .card.cardFooter a
+{
+    text-decoration: none;
+    color: black;
+    border:1px solid lightgray;
+    background-color: lightgray;
+    color:white;
+    font-size:0.8em
+
+}
+#cards .card.cardFooter a:hover
+{
+    color: black;
+}
+
+#cards .cardFooter span
+{
+    flex: 0 1 auto;
+    margin-left: auto;
+    padding: 0.5em;
+    font-size: 0.8em;
+    color: rgb(178, 83, 83);
+
+
+}
 
 #cards.card h3
 {
