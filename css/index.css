@@ -1,10 +1,14 @@
-
+#root{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     #root {
-        width: 100%;
+        max-width: 100%;
     }
 
 
@@ -13,14 +17,14 @@
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     #root {
-        width: 720px;
+        max-width: 720px;
     }
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     #root {
-        width: 960px;
+        max-width: 960px;
     }
 
 }
@@ -28,7 +32,7 @@
 /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
     #root {
-        width: 1140px;
+        max-width: 1140px;
     }
 
 }
@@ -36,7 +40,7 @@
 /*XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
     #root {
-        width: 1320px;
+        max-width: 1320px;
     }
 
 }
