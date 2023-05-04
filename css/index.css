@@ -96,14 +96,13 @@ footer ul
     flex-wrap: nowrap;
 }
 
-footer ul img, footer ul a
+footer ul img, footer ul span
 {
     display: block;
     display: block;
-    margin-left: auto;
-    margin-right: 0 auto;
-
-}
+    margin-left: 0 auto;
+    text-align: center;
+    }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
